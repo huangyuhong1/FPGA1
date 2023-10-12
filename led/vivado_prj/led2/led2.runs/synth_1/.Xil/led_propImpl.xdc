@@ -1,0 +1,5 @@
+set_property SRC_FILE_INFO {cfile:F:/FPGA/led/vivado_prj/led2/led2.srcs/constrs_1/new/led1.xdc rfile:../../../led2.srcs/constrs_1/new/led1.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN L14 [get_ports key]
+set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN H15 [get_ports led]

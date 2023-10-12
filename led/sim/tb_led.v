@@ -1,38 +1,30 @@
-`timescale  1ns / 1ps
+`timescale  1ns / 1ns
 
-module tb_led;
+module tb_led();
 
-// led Parameters
-parameter PERIOD  = 10;
 
 
 // led Inputs
-reg   key                                  = 0 ;
+reg   key;
 
 // led Outputs
 wire  led                                  ;
-
-
-
-initial
-begin
-    #100 key  <=  1;
-    #200 key<=0;
-    #100 key<=1;
+initial begin
+    key<=1'b1;
+    #200
+    key<=1'b0;
+    #1000
+    key<=1'b0;
+    #1000
+    key<=1'b1;
 end
 
 led  u_led (
-    .key                     ( key   ),
+    .key                     ( key ),
 
-    .led                     ( led   )
+    .led                     ( led)
 );
 
-initial
-begin
-  #100 key  <=  1;
-    #200 key<=0;
-    #100 key<=1;
-    $finish;
-end
+
 
 endmodule
