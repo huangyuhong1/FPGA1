@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Oct 15 02:43:24 2023
+# Process ID: 9728
+# Current directory: F:/FPGA/key_control_led/vivado_prj/key_control_led/key_control_led.runs/synth_1
+# Command line: vivado.exe -log key_control_led.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source key_control_led.tcl
+# Log file: F:/FPGA/key_control_led/vivado_prj/key_control_led/key_control_led.runs/synth_1/key_control_led.vds
+# Journal file: F:/FPGA/key_control_led/vivado_prj/key_control_led/key_control_led.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source key_control_led.tcl -notrace

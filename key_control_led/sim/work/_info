@@ -1,0 +1,67 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/FPGA/flow_led/sim
+T_opt
+!s110 1697304814
+VMTm38DPkieP`iCHQkj5Ra2
+Z1 04 18 4 work tb_key_control_led fast 0
+=1-f8893c26da57-652ad0ea-303-23e4
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OL;O;10.4;61
+R0
+T_opt1
+!s110 1697306440
+V:@MmnKb4ZGD0]OJ2M?Mf;0
+R1
+=1-f8893c26da57-652ad748-2bc-4110
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt1
+R2
+vkey_control_led
+Z3 !s110 1697306426
+!i10b 1
+!s100 4n4JiYZXa]hoEKOA7BcC;3
+IUJIeemMilQ1AHQ[4I5<a31
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 dF:/FPGA/key_control_led/sim
+w1697306384
+8F:/FPGA/key_control_led/rtl/key_control_led.v
+FF:/FPGA/key_control_led/rtl/key_control_led.v
+L0 1
+Z6 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1697306426.771000
+!s107 F:/FPGA/key_control_led/rtl/key_control_led.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/FPGA/key_control_led/rtl/key_control_led.v|
+!i113 0
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vtb_key_control_led
+R3
+!i10b 1
+!s100 5O?P?DGVV^goJ6L21=V7A0
+IG`1C]YzehN_AHg0ILz:0L1
+R4
+R5
+w1697305731
+8F:/FPGA/key_control_led/rtl/tb.key_control_led.v
+FF:/FPGA/key_control_led/rtl/tb.key_control_led.v
+L0 3
+R6
+r1
+!s85 0
+31
+!s108 1697306426.672000
+!s107 F:/FPGA/key_control_led/rtl/tb.key_control_led.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/FPGA/key_control_led/rtl/tb.key_control_led.v|
+!i113 0
+R7
