@@ -127,6 +127,7 @@ set rc [catch {
   create_msg_db write_bitstream.pb
   set_param chipscope.maxJobs 4
   set_param synth.incrementalSynthesisCache C:/Users/huangyuhong/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12560-DESKTOP-S28V71U/incrSyn
+  set_param xicom.use_bs_reader 1
   open_checkpoint touch_led_routed.dcp
   set_property webtalk.parent_dir F:/FPGA/touch_led/vivado_prj/touch_led/touch_led.cache/wt [current_project]
 set_property TOP touch_led [current_fileset]

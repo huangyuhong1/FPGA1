@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7z020clg400-2" LaunchTime="1697527360">
+<GenRun Id="impl_1" LaunchPart="xc7z020clg400-2" LaunchTime="1697532091">
   <File Type="BITSTR-BMM" Name="touch_led_bd.bmm"/>
   <File Type="OPT-METHODOLOGY-DRC" Name="touch_led_methodology_drc_opted.rpt"/>
   <File Type="INIT-TIMING" Name="touch_led_timing_summary_init.rpt"/>
@@ -99,7 +99,6 @@
       </FileInfo>
     </File>
     <Config>
-      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/touch_led.xdc"/>
       <Option Name="ConstrsType" Val="XDC"/>
     </Config>
   </FileSet>

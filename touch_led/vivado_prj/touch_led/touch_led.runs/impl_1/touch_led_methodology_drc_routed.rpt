@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
-| Date         : Tue Oct 17 15:23:29 2023
+| Date         : Tue Oct 17 16:42:12 2023
 | Host         : DESKTOP-S28V71U running 64-bit major release  (build 9200)
 | Command      : report_methodology -file touch_led_methodology_drc_routed.rpt -pb touch_led_methodology_drc_routed.pb -rpx touch_led_methodology_drc_routed.rpx
 | Design       : touch_led
@@ -23,12 +23,28 @@ Table of Contents
           Floorplan: design_1
       Design limits: <entire design considered>
              Max violations: <unlimited>
-             Violations found: 0
-+------+----------+-------------+------------+
-| Rule | Severity | Description | Violations |
-+------+----------+-------------+------------+
-+------+----------+-------------+------------+
+             Violations found: 3
++-----------+----------+-------------------------------+------------+
+| Rule      | Severity | Description                   | Violations |
++-----------+----------+-------------------------------+------------+
+| TIMING-18 | Warning  | Missing input or output delay | 3          |
++-----------+----------+-------------------------------+------------+
 
 2. REPORT DETAILS
 -----------------
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on rst_n relative to clock(s) sys_clk
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An input delay is missing on touch_key relative to clock(s) sys_clk
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An output delay is missing on led relative to clock(s) sys_clk
+Related violations: <none>
+
 

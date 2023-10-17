@@ -1,15 +1,8 @@
 module touch_led (
     input clk,rst_n,
     input touch_key,
-    output reg led
+    output reg led=1
 );
- //led复位
- initial led=1;
-    always@(posedge clk or negedge rst_n)
-    begin
-        if(!rst_n) led<=1;
-    else;
-    end
 
  //上升沿检测
  reg out;
@@ -26,8 +19,9 @@ if((~mid)&touch_key) out<=1;
 else out<=0;
 end
 
-always @(posedge clk)
-if(out) led<=~led;
+always @(posedge clk or negedge rst_n)
+if(~rst_n) led<=1;
+else if(out) led<=~led;
 else;
 endmodule
 
