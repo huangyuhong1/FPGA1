@@ -1,0 +1,87 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/FPGA/key_control_led/sim
+T_opt
+!s110 1697526090
+V3?XXhelWSHKX@4Q1YmZLM3
+Z1 04 12 4 work tb_touch_led fast 0
+=1-f8893c26da57-652e3149-3b2-984
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+Z2 OL;O;10.4;61
+R0
+T_opt1
+!s110 1697526201
+V?>1>U_Rc<znaUYRWi>k`g3
+R1
+=1-f8893c26da57-652e31b9-171-188
+o-quiet -auto_acc_if_foreign -work work
+n@_opt1
+R2
+vdff1
+Z3 !s110 1697526075
+!i10b 1
+!s100 6@?<lg;`kEOEQWL[YY5?i0
+IO[A[DZ<kI5:J2KT>7lolK1
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 dF:/FPGA/touch_led/sim
+Z6 w1697526068
+Z7 8F:/FPGA/touch_led/rtl/touch_led.v
+Z8 FF:/FPGA/touch_led/rtl/touch_led.v
+L0 36
+Z9 OL;L;10.4;61
+r1
+!s85 0
+31
+Z10 !s108 1697526075.175000
+Z11 !s107 F:/FPGA/touch_led/rtl/touch_led.v|
+Z12 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/FPGA/touch_led/rtl/touch_led.v|
+!i113 0
+Z13 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vtb_touch_led
+R3
+!i10b 1
+!s100 ]?n:Ga;o?9BiHHcM12CaA0
+IN0h09ej_R>G8[bmm^XKGH3
+R4
+R5
+w1697525991
+8F:/FPGA/touch_led/rtl/tb_touch_led.v
+FF:/FPGA/touch_led/rtl/tb_touch_led.v
+L0 3
+R9
+r1
+!s85 0
+31
+!s108 1697526075.307000
+!s107 F:/FPGA/touch_led/rtl/tb_touch_led.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/FPGA/touch_led/rtl/tb_touch_led.v|
+!i113 0
+R13
+vtouch_led
+R3
+!i10b 1
+!s100 f64mM<kjnll2nHU46JTRm1
+I:JRK@]SL>z3mIf5M;9zQ`1
+R4
+R5
+R6
+R7
+R8
+L0 1
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13

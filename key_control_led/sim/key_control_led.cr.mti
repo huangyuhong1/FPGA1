@@ -1,11 +1,4 @@
-F:/FPGA/key_control_led/rtl/key_control_led.v {1 {vlog -work work -vopt -stats=none F:/FPGA/key_control_led/rtl/key_control_led.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module key_control_led
-
-Top level modules:
-	key_control_led
-
-} {} {}} F:/FPGA/key_control_led/rtl/tb.key_control_led.v {1 {vlog -work work -vopt -stats=none F:/FPGA/key_control_led/rtl/tb.key_control_led.v
+F:/FPGA/key_control_led/rtl/tb.key_control_led.v {1 {vlog -work work -vopt -stats=none F:/FPGA/key_control_led/rtl/tb.key_control_led.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 -- Compiling module tb_key_control_led
 
