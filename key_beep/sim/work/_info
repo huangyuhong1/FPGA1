@@ -1,0 +1,118 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/modelsim/examples
+T_opt
+!s110 1697890357
+VcK?6ia><PoE]_>z[L^4<[1
+04 15 4 work tb_top_key_beep fast 0
+=1-f8893c26da57-6533c035-2d3-2198
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+OL;O;10.4;61
+vdff1
+Z0 !s110 1697890337
+!i10b 1
+!s100 I6ST;zMlQehNSe^QkjLBL3
+IJB80A]IE8NoJBbCjCB2`?2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dG:/FPGA/key_beep/sim
+Z3 w1697889226
+Z4 8G:/FPGA/key_beep/rtl/key_beep.v
+Z5 FG:/FPGA/key_beep/rtl/key_beep.v
+L0 29
+Z6 OL;L;10.4;61
+r1
+!s85 0
+31
+Z7 !s108 1697890337.704000
+Z8 !s107 G:/FPGA/key_beep/rtl/key_beep.v|
+Z9 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|G:/FPGA/key_beep/rtl/key_beep.v|
+!i113 0
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vkey_beep
+R0
+!i10b 1
+!s100 mLGEkFTMUQ6TJ:jfMR6R`0
+IR?]KYY0GLeSWJ?nD1F3W62
+R1
+R2
+R3
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+vkey_filter
+R0
+!i10b 1
+!s100 h79^5H5K68Q_;zQJe@@N_1
+I5Nk<f<NA=CO<FO]GXOn4Q1
+R1
+R2
+w1697890324
+8G:/FPGA/key_beep/rtl/key_filter.v
+FG:/FPGA/key_beep/rtl/key_filter.v
+L0 2
+R6
+r1
+!s85 0
+31
+!s108 1697890337.793000
+!s107 G:/FPGA/key_beep/rtl/key_filter.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|G:/FPGA/key_beep/rtl/key_filter.v|
+!i113 0
+R10
+vtb_top_key_beep
+R0
+!i10b 1
+!s100 55DfFo2@W@EY[gM]LVC2k2
+I:MhlfYECK23]6nAf2:hNI3
+R1
+R2
+w1697890327
+8G:/FPGA/key_beep/rtl/tb_top_key_beep.v
+FG:/FPGA/key_beep/rtl/tb_top_key_beep.v
+L0 3
+R6
+r1
+!s85 0
+31
+!s108 1697890337.889000
+!s107 G:/FPGA/key_beep/rtl/tb_top_key_beep.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|G:/FPGA/key_beep/rtl/tb_top_key_beep.v|
+!i113 0
+R10
+vtop_key_beep
+R0
+!i10b 1
+!s100 VJA9n5Tz3]AYzCN95RUzm1
+IAnDdO6BC_fI`iWI]<J>Vn2
+R1
+R2
+w1697890328
+8G:/FPGA/key_beep/rtl/top_key_beep.v
+FG:/FPGA/key_beep/rtl/top_key_beep.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1697890337.965000
+!s107 G:/FPGA/key_beep/rtl/top_key_beep.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|G:/FPGA/key_beep/rtl/top_key_beep.v|
+!i113 0
+R10

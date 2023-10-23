@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Oct 21 21:10:17 2023
+# Process ID: 1436
+# Current directory: G:/FPGA/key_beep/vivado_prj/key_beep/key_beep.runs/synth_1
+# Command line: vivado.exe -log top_key_beep.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_key_beep.tcl
+# Log file: G:/FPGA/key_beep/vivado_prj/key_beep/key_beep.runs/synth_1/top_key_beep.vds
+# Journal file: G:/FPGA/key_beep/vivado_prj/key_beep/key_beep.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top_key_beep.tcl -notrace
