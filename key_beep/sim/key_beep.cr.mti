@@ -1,4 +1,11 @@
-G:/FPGA/key_beep/rtl/key_beep.v {1 {vlog -work work -vopt -stats=none G:/FPGA/key_beep/rtl/key_beep.v
+G:/FPGA/key_beep/rtl/tb_top_key_beep.v {1 {vlog -work work -vopt -stats=none G:/FPGA/key_beep/rtl/tb_top_key_beep.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module tb_top_key_beep
+
+Top level modules:
+	tb_top_key_beep
+
+} {} {}} G:/FPGA/key_beep/rtl/key_beep.v {1 {vlog -work work -vopt -stats=none G:/FPGA/key_beep/rtl/key_beep.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 -- Compiling module key_beep
 -- Compiling module dff1

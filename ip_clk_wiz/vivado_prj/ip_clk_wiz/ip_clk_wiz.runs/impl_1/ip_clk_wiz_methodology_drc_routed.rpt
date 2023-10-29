@@ -1,0 +1,56 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Wed Oct 25 21:55:45 2023
+| Host         : DESKTOP-S28V71U running 64-bit major release  (build 9200)
+| Command      : report_methodology -file ip_clk_wiz_methodology_drc_routed.rpt -pb ip_clk_wiz_methodology_drc_routed.pb -rpx ip_clk_wiz_methodology_drc_routed.rpx
+| Design       : ip_clk_wiz
+| Device       : xc7z020clg400-2
+| Speed File   : -2
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 3
++---------+----------+--------------------------------------------------------+------------+
+| Rule    | Severity | Description                                            | Violations |
++---------+----------+--------------------------------------------------------+------------+
+| LUTAR-1 | Warning  | LUT drives async reset alert                           | 1          |
+| XDCC-1  | Warning  | Scoped Clock constraint overwritten with the same name | 1          |
+| XDCC-7  | Warning  | Scoped Clock constraint overwritten on the same source | 1          |
++---------+----------+--------------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+LUTAR-1#1 Warning
+LUT drives async reset alert  
+LUT cell instance_name_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) instance_name/inst/mmcm_adv_inst/RST. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+XDCC-1#1 Warning
+Scoped Clock constraint overwritten with the same name  
+A new clock constraint create_clock overrides a previous scoped clock constraint with the same name. It is not recommended to override a scoped (typically an IP) clock constraint and could result in unexpected behaviors.
+New: create_clock -period 20.000 [get_ports clk] (Source: G:/FPGA/ip_clk_wiz/vivado_prj/ip_clk_wiz/ip_clk_wiz.srcs/constrs_1/new/ip_clk_wiz.xdc (Line: 1))
+Previous: create_clock -period 20.000 [get_ports clk] (Source: g:/FPGA/ip_clk_wiz/vivado_prj/ip_clk_wiz/ip_clk_wiz.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc (Line: 56))
+Related violations: <none>
+
+XDCC-7#1 Warning
+Scoped Clock constraint overwritten on the same source  
+A new clock constraint create_clock overrides a previous scoped clock constraint defined on the same source. It is not recommended to override a scoped (typically an IP) clock constraint and could result in unexpected behaviors.
+New: create_clock -period 20.000 [get_ports clk] (Source: G:/FPGA/ip_clk_wiz/vivado_prj/ip_clk_wiz/ip_clk_wiz.srcs/constrs_1/new/ip_clk_wiz.xdc (Line: 1))
+Previous: create_clock -period 20.000 [get_ports clk] (Source: g:/FPGA/ip_clk_wiz/vivado_prj/ip_clk_wiz/ip_clk_wiz.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc (Line: 56))
+Related violations: <none>
+
+

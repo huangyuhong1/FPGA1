@@ -1,0 +1,128 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/FPGA/ip_clk_wiz/vivado_prj/ip_clk_wiz/ip_clk_wiz.sim/sim_1/behav/modelsim
+T_opt
+!s110 1698235272
+VGFLG>Z=>ZCMG0g;b_lI7F1
+04 13 4 work tb_ip_clk_wiz fast 0
+04 4 4 work glbl fast 0
+=1-f8893c26da57-65390384-21b-16e8
+o-quiet -auto_acc_if_foreign -work xil_defaultlib -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm +acc
+n@_opt
+OL;O;10.4;61
+R0
+vclk_wiz_0
+Z1 !s10a 1698205111
+Z2 !s110 1698230438
+!i10b 1
+!s100 ceMIeAYn?jD^U=XcXz_EE0
+I93HhPiz8Qo>09FbV6dd`T2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1698205111
+8../../../../ip_clk_wiz.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v
+F../../../../ip_clk_wiz.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v
+L0 73
+Z5 OL;L;10.4;61
+r1
+!s85 0
+31
+Z6 !s108 1698230438.544000
+Z7 !s107 ../../../../../../sim/tb_ip_clk_wiz.v|../../../../../../rtl/ip_clk_wiz.v|../../../../ip_clk_wiz.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v|../../../../ip_clk_wiz.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v|
+Z8 !s90 -incr|-work|xil_defaultlib|+incdir+../../../../ip_clk_wiz.gen/sources_1/ip/clk_wiz_0|../../../../ip_clk_wiz.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v|../../../../ip_clk_wiz.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v|../../../../../../rtl/ip_clk_wiz.v|../../../../../../sim/tb_ip_clk_wiz.v|
+!i113 0
+Z9 o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z10 !s92 -work xil_defaultlib +incdir+../../../../ip_clk_wiz.gen/sources_1/ip/clk_wiz_0 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vclk_wiz_0_clk_wiz
+R1
+R2
+!i10b 1
+!s100 bjY5G9F4zZgnI0?ODNLn^3
+I@g8I73eo;VZ0P]7cGF8`L2
+R3
+R0
+R4
+8../../../../ip_clk_wiz.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v
+F../../../../ip_clk_wiz.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v
+L0 71
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vglbl
+!s110 1698238383
+!i10b 1
+!s100 aGX4R92RO3^bD43HL2j:J2
+I5GBkB2^BD7zJ]g29CKF3T3
+R3
+R0
+w1605673889
+8glbl.v
+Fglbl.v
+L0 6
+R5
+r1
+!s85 0
+31
+!s108 1698238383.552000
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+!i113 0
+R9
+vip_clk_wiz
+!s10a 1698235238
+Z11 !s110 1698235259
+!i10b 1
+!s100 _9TMR3]dK_T3I7HanGk6?1
+I7DA5^M5zzKR;]J5z]AM@d1
+R3
+R0
+w1698235238
+8../../../../../../rtl/ip_clk_wiz.v
+F../../../../../../rtl/ip_clk_wiz.v
+L0 1
+R5
+r1
+!s85 0
+31
+Z12 !s108 1698235259.142000
+R7
+R8
+!i113 0
+R9
+R10
+vtb_ip_clk_wiz
+!s10a 1698235175
+R11
+!i10b 1
+!s100 Qo`Ndn4TM2UkBihJDf19e2
+I>2X`@TIaFIY5kVKAd<f>42
+R3
+R0
+w1698235175
+8../../../../../../sim/tb_ip_clk_wiz.v
+F../../../../../../sim/tb_ip_clk_wiz.v
+L0 3
+R5
+r1
+!s85 0
+31
+R12
+R7
+R8
+!i113 0
+R9
+R10
