@@ -1,0 +1,70 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dG:/FPGA/key_beep/sim
+vip_lport_ram
+Z0 !s110 1698569767
+!i10b 1
+!s100 iSBFPlM<HjEdzUHncU7>C3
+I@:c4864?4QLEF3cn:X?d70
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dG:/FPGA/ip_lport_ram/sim
+w1698569207
+8G:/FPGA/ip_lport_ram/rtl/ip_lport_ram.v
+FG:/FPGA/ip_lport_ram/rtl/ip_lport_ram.v
+L0 1
+Z3 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1698569767.913000
+!s107 G:/FPGA/ip_lport_ram/rtl/ip_lport_ram.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|G:/FPGA/ip_lport_ram/rtl/ip_lport_ram.v|
+!i113 0
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vram_rd
+R0
+!i10b 1
+!s100 55SJL^JELXi8c=3CmnPFz2
+I]o@Q=2KoDjAo7=f3MRhTf1
+R1
+R2
+w1698564611
+8G:/FPGA/ip_lport_ram/rtl/ram_rd.v
+FG:/FPGA/ip_lport_ram/rtl/ram_rd.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1698569767.835000
+!s107 G:/FPGA/ip_lport_ram/rtl/ram_rd.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|G:/FPGA/ip_lport_ram/rtl/ram_rd.v|
+!i113 0
+R4
+vtb_ip_lport_ram
+R0
+!i10b 1
+!s100 [TYFj?7H:69V3nCHWi`W@0
+Io5oN9iLb=S432EHANzT=L3
+R1
+R2
+w1698569301
+8G:/FPGA/ip_lport_ram/sim/tb_ip_lport_ram.v
+FG:/FPGA/ip_lport_ram/sim/tb_ip_lport_ram.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1698569767.740000
+!s107 G:/FPGA/ip_lport_ram/sim/tb_ip_lport_ram.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|G:/FPGA/ip_lport_ram/sim/tb_ip_lport_ram.v|
+!i113 0
+R4

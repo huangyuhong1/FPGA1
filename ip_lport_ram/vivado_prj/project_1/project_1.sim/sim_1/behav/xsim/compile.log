@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/FPGA/ip_lport_ram/vivado_prj/project_1/project_1.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/FPGA/ip_lport_ram/rtl/ip_1port_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ip_1port_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/FPGA/ip_lport_ram/rtl/ram_rd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram_rw
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/FPGA/ip_lport_ram/sim/tb_ip_1port_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_ip_1port_ram

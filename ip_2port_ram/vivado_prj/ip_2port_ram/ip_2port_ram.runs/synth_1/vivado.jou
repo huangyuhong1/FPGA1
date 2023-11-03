@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Nov  3 19:06:05 2023
+# Process ID: 8804
+# Current directory: G:/FPGA/ip_2port_ram/vivado_prj/ip_2port_ram/ip_2port_ram.runs/synth_1
+# Command line: vivado.exe -log ip_2port_ram.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ip_2port_ram.tcl
+# Log file: G:/FPGA/ip_2port_ram/vivado_prj/ip_2port_ram/ip_2port_ram.runs/synth_1/ip_2port_ram.vds
+# Journal file: G:/FPGA/ip_2port_ram/vivado_prj/ip_2port_ram/ip_2port_ram.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source ip_2port_ram.tcl -notrace

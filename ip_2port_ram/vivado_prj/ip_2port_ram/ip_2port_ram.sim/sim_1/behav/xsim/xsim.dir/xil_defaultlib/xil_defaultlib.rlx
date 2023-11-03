@@ -1,0 +1,10 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+G:/FPGA/ip_2port_ram/rtl/ip_2port_ram.v,1698989180,verilog,,G:/FPGA/ip_2port_ram/rtl/ram_rd.v,,ip_2port_ram,,,,,,,,
+G:/FPGA/ip_2port_ram/rtl/ram_rd.v,1698989719,verilog,,G:/FPGA/ip_2port_ram/rtl/ram_wr.v,,ram_rd,,,,,,,,
+G:/FPGA/ip_2port_ram/rtl/ram_wr.v,1698989913,verilog,,G:/FPGA/ip_2port_ram/sim/ip_2port_ram.v,,ram_wr,,,,,,,,
+G:/FPGA/ip_2port_ram/sim/ip_2port_ram.v,1698987763,verilog,,,,tb_ip_2port_ram,,,,,,,,
+G:/FPGA/ip_2port_ram/vivado_prj/ip_2port_ram/ip_2port_ram.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v,1698901482,verilog,,G:/FPGA/ip_2port_ram/rtl/ip_2port_ram.v,,blk_mem_gen_0,,,,,,,,
+G:/FPGA/ip_2port_ram/vivado_prj/ip_2port_ram/ip_2port_ram.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,

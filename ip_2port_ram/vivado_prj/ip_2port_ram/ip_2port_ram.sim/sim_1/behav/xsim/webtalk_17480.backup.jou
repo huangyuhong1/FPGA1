@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Nov  3 13:12:40 2023
+# Process ID: 17480
+# Current directory: G:/FPGA/ip_2port_ram/vivado_prj/ip_2port_ram/ip_2port_ram.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source G:/FPGA/ip_2port_ram/vivado_prj/ip_2port_ram/ip_2port_ram.sim/sim_1/behav/xsim/xsim.dir/tb_ip_2port_ram_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: G:/FPGA/ip_2port_ram/vivado_prj/ip_2port_ram/ip_2port_ram.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: G:/FPGA/ip_2port_ram/vivado_prj/ip_2port_ram/ip_2port_ram.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source G:/FPGA/ip_2port_ram/vivado_prj/ip_2port_ram/ip_2port_ram.sim/sim_1/behav/xsim/xsim.dir/tb_ip_2port_ram_behav/webtalk/xsim_webtalk.tcl -notrace
