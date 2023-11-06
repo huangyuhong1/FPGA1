@@ -1,0 +1,12 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+G:/FPGA/FIFO/rtl/fifo.v,1699120940,verilog,,G:/FPGA/FIFO/rtl/fifo_rd.v,,fifo,,,,,,,,
+G:/FPGA/FIFO/rtl/fifo_rd.v,1699122303,verilog,,G:/FPGA/FIFO/rtl/fifo_wr.v,,fifo_rd,,,,,,,,
+G:/FPGA/FIFO/rtl/fifo_wr.v,1699120485,verilog,,G:/FPGA/FIFO/sim/tb_fifo.v,,fifo_wr,,,,,,,,
+G:/FPGA/FIFO/sim/tb_fifo.v,1699119018,verilog,,,,tb_fifo,,,,,,,,
+G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v,1699100373,verilog,,G:/FPGA/FIFO/rtl/fifo.v,,clk_wiz_0,,,../../../../FIFO.gen/sources_1/ip/clk_wiz_0,,,,,
+G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,1699100373,verilog,,G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v,,clk_wiz_0_clk_wiz,,,../../../../FIFO.gen/sources_1/ip/clk_wiz_0,,,,,
+G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.gen/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v,1699090467,verilog,,G:/FPGA/FIFO/rtl/fifo.v,,fifo_generator_0,,,,,,,,
+G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,

@@ -1,0 +1,9 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 4876a296d2a14433bf59298bf5563add --incr --debug typical --relax --mt 2 -L xil_defaultlib -L fifo_generator_v13_2_5 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_fifo_behav xil_defaultlib.tb_fifo xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 1 for port 'fifo_rd_data' [G:/FPGA/FIFO/rtl/fifo.v:69]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

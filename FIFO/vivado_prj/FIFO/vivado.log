@@ -1,0 +1,400 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Nov  4 17:03:40 2023
+# Process ID: 8200
+# Current directory: G:/FPGA/FIFO/vivado_prj/FIFO
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14248 G:\FPGA\FIFO\vivado_prj\FIFO\FIFO.xpr
+# Log file: G:/FPGA/FIFO/vivado_prj/FIFO/vivado.log
+# Journal file: G:/FPGA/FIFO/vivado_prj/FIFO\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.xpr
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1141.043 ; gain = 0.000
+create_ip -name fifo_generator -vendor xilinx.com -library ip -version 13.2 -module_name fifo_generator_0
+set_property -dict [list CONFIG.Fifo_Implementation {Independent_Clocks_Block_RAM} CONFIG.Input_Data_Width {8} CONFIG.Input_Depth {256} CONFIG.Output_Data_Width {8} CONFIG.Output_Depth {256} CONFIG.Enable_ECC {false} CONFIG.Reset_Type {Asynchronous_Reset} CONFIG.Full_Flags_Reset_Value {1} CONFIG.Use_Dout_Reset {true} CONFIG.Almost_Full_Flag {true} CONFIG.Almost_Empty_Flag {true} CONFIG.Data_Count_Width {8} CONFIG.Write_Data_Count {true} CONFIG.Write_Data_Count_Width {8} CONFIG.Read_Data_Count {true} CONFIG.Read_Data_Count_Width {8} CONFIG.Full_Threshold_Assert_Value {253} CONFIG.Full_Threshold_Negate_Value {252} CONFIG.Enable_Safety_Circuit {true}] [get_ips fifo_generator_0]
+generate_target {instantiation_template} [get_files g:/FPGA/FIFO/vivado_prj/FIFO/FIFO.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'fifo_generator_0'...
+generate_target all [get_files  g:/FPGA/FIFO/vivado_prj/FIFO/FIFO.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fifo_generator_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'fifo_generator_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'fifo_generator_0'...
+catch { config_ip_cache -export [get_ips -all fifo_generator_0] }
+export_ip_user_files -of_objects [get_files g:/FPGA/FIFO/vivado_prj/FIFO/FIFO.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] g:/FPGA/FIFO/vivado_prj/FIFO/FIFO.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xci]
+launch_runs fifo_generator_0_synth_1 -jobs 16
+[Sat Nov  4 17:34:28 2023] Launched fifo_generator_0_synth_1...
+Run output will be captured here: G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.runs/fifo_generator_0_synth_1/runme.log
+export_simulation -of_objects [get_files g:/FPGA/FIFO/vivado_prj/FIFO/FIFO.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xci] -directory G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.ip_user_files/sim_scripts -ip_user_files_dir G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.ip_user_files -ipstatic_source_dir G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.ip_user_files/ipstatic -lib_map_path [list {modelsim=G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.cache/compile_simlib/modelsim} {questa=G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.cache/compile_simlib/questa} {riviera=G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.cache/compile_simlib/riviera} {activehdl=G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+create_ip -name clk_wiz -vendor xilinx.com -library ip -version 6.0 -module_name clk_wiz_0
+set_property -dict [list CONFIG.CLKOUT2_USED {true} CONFIG.CLKOUT2_REQUESTED_OUT_FREQ {50} CONFIG.USE_LOCKED {true} CONFIG.MMCM_CLKOUT1_DIVIDE {20} CONFIG.NUM_OUT_CLKS {2} CONFIG.CLKOUT2_JITTER {151.636} CONFIG.CLKOUT2_PHASE_ERROR {98.575}] [get_ips clk_wiz_0]
+generate_target {instantiation_template} [get_files g:/FPGA/FIFO/vivado_prj/FIFO/FIFO.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'clk_wiz_0'...
+generate_target all [get_files  g:/FPGA/FIFO/vivado_prj/FIFO/FIFO.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'clk_wiz_0'...
+catch { config_ip_cache -export [get_ips -all clk_wiz_0] }
+export_ip_user_files -of_objects [get_files g:/FPGA/FIFO/vivado_prj/FIFO/FIFO.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] g:/FPGA/FIFO/vivado_prj/FIFO/FIFO.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci]
+launch_runs clk_wiz_0_synth_1 -jobs 16
+[Sat Nov  4 20:19:34 2023] Launched clk_wiz_0_synth_1...
+Run output will be captured here: G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.runs/clk_wiz_0_synth_1/runme.log
+export_simulation -of_objects [get_files g:/FPGA/FIFO/vivado_prj/FIFO/FIFO.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -directory G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.ip_user_files/sim_scripts -ip_user_files_dir G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.ip_user_files -ipstatic_source_dir G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.ip_user_files/ipstatic -lib_map_path [list {modelsim=G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.cache/compile_simlib/modelsim} {questa=G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.cache/compile_simlib/questa} {riviera=G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.cache/compile_simlib/riviera} {activehdl=G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+add_files -norecurse {G:/FPGA/FIFO/rtl/fifo_rd.v G:/FPGA/FIFO/rtl/fifo.v G:/FPGA/FIFO/rtl/fifo_wr.v}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse G:/FPGA/FIFO/sim/tb_fifo.v
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/vivado/Vivado/2020.2/data/xsim/xsim.ini' copied to run dir:'G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'fifo' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj fifo_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.gen/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/FPGA/FIFO/rtl/fifo_rd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_rd
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/FPGA/FIFO/rtl/fifo_wr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_wr
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/FPGA/FIFO/rtl/fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo
+INFO: [VRFC 10-2458] undeclared symbol rst, assumed default net type wire [G:/FPGA/FIFO/rtl/fifo.v:16]
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+"xvhdl --incr --relax -prj fifo_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.sim/sim_1/behav/xsim'
+"xelab -wto 4876a296d2a14433bf59298bf5563add --incr --debug typical --relax --mt 2 -L xil_defaultlib -L fifo_generator_v13_2_5 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot fifo_behav xil_defaultlib.fifo xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 4876a296d2a14433bf59298bf5563add --incr --debug typical --relax --mt 2 -L xil_defaultlib -L fifo_generator_v13_2_5 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot fifo_behav xil_defaultlib.fifo xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.0,...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module fifo_generator_v13_2_5.fifo_generator_v13_2_5_sync_stag...
+Compiling module fifo_generator_v13_2_5.fifo_generator_v13_2_5_bhv_ver_a...
+Compiling module fifo_generator_v13_2_5.fifo_generator_v13_2_5_CONV_VER(...
+Compiling module fifo_generator_v13_2_5.fifo_generator_vlog_beh(C_DATA_C...
+Compiling module xil_defaultlib.fifo_generator_0
+Compiling module xil_defaultlib.fifo_rd
+Compiling module xil_defaultlib.fifo_wr
+Compiling module xil_defaultlib.fifo
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot fifo_behav
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.sim/sim_1/behav/xsim/xsim.dir/fifo_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Nov  5 01:27:02 2023...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:12 . Memory (MB): peak = 1390.918 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '11' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "fifo_behav -key {Behavioral:sim_1:Functional:fifo} -tclbatch {fifo.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source fifo.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+xsim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1453.047 ; gain = 48.031
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'fifo_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:21 . Memory (MB): peak = 1453.047 ; gain = 62.129
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/vivado/Vivado/2020.2/data/xsim/xsim.ini' copied to run dir:'G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'fifo' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj fifo_vlog.prj"
+"xvhdl --incr --relax -prj fifo_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.sim/sim_1/behav/xsim'
+"xelab -wto 4876a296d2a14433bf59298bf5563add --incr --debug typical --relax --mt 2 -L xil_defaultlib -L fifo_generator_v13_2_5 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot fifo_behav xil_defaultlib.fifo xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 4876a296d2a14433bf59298bf5563add --incr --debug typical --relax --mt 2 -L xil_defaultlib -L fifo_generator_v13_2_5 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot fifo_behav xil_defaultlib.fifo xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 1453.047 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/vivado/Vivado/2020.2/data/xsim/xsim.ini' copied to run dir:'G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'fifo' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj fifo_vlog.prj"
+"xvhdl --incr --relax -prj fifo_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.sim/sim_1/behav/xsim'
+"xelab -wto 4876a296d2a14433bf59298bf5563add --incr --debug typical --relax --mt 2 -L xil_defaultlib -L fifo_generator_v13_2_5 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot fifo_behav xil_defaultlib.fifo xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 4876a296d2a14433bf59298bf5563add --incr --debug typical --relax --mt 2 -L xil_defaultlib -L fifo_generator_v13_2_5 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot fifo_behav xil_defaultlib.fifo xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 1453.047 ; gain = 0.000
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+Command: launch_simulation 
+boost::filesystem::remove: 另一个程序正在使用此文件，进程无法访问。: "G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.sim/sim_1/behav/xsim/simulate.log"
+update_compile_order -fileset sim_1
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/vivado/Vivado/2020.2/data/xsim/xsim.ini' copied to run dir:'G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_fifo' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_fifo_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/FPGA/FIFO/sim/tb_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_fifo
+"xvhdl --incr --relax -prj tb_fifo_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.sim/sim_1/behav/xsim'
+"xelab -wto 4876a296d2a14433bf59298bf5563add --incr --debug typical --relax --mt 2 -L xil_defaultlib -L fifo_generator_v13_2_5 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_fifo_behav xil_defaultlib.tb_fifo xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 4876a296d2a14433bf59298bf5563add --incr --debug typical --relax --mt 2 -L xil_defaultlib -L fifo_generator_v13_2_5 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_fifo_behav xil_defaultlib.tb_fifo xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.0,...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module fifo_generator_v13_2_5.fifo_generator_v13_2_5_sync_stag...
+Compiling module fifo_generator_v13_2_5.fifo_generator_v13_2_5_bhv_ver_a...
+Compiling module fifo_generator_v13_2_5.fifo_generator_v13_2_5_CONV_VER(...
+Compiling module fifo_generator_v13_2_5.fifo_generator_vlog_beh(C_DATA_C...
+Compiling module xil_defaultlib.fifo_generator_0
+Compiling module xil_defaultlib.fifo_rd
+Compiling module xil_defaultlib.fifo_wr
+Compiling module xil_defaultlib.fifo
+Compiling module xil_defaultlib.tb_fifo
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_fifo_behav
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.sim/sim_1/behav/xsim/xsim.dir/tb_fifo_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Nov  5 01:30:41 2023...
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:11 . Memory (MB): peak = 1461.160 ; gain = 2.863
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/vivado/Vivado/2020.2/data/xsim/xsim.ini' copied to run dir:'G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_fifo' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.sim/sim_1/behav/xsim'
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+"xvlog --incr --relax -prj tb_fifo_vlog.prj"
+"xvhdl --incr --relax -prj tb_fifo_vhdl.prj"
+INFO: [Common 17-344] 'run_program' was cancelled
+INFO: [Vivado 12-5357] 'compile' step aborted
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+INFO: [Common 17-344] 'relaunch_sim' was cancelled
+reset_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-2266] Removing simulation data...
+WARNING: [Vivado 12-3661] Failed to remove file:G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.sim/sim_1/behav/xsim/xsim.dir/fifo_behav/xsim.xdbg
+WARNING: [Vivado 12-4421] Failed to remove directory:G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.sim/sim_1/behav/xsim/xsim.dir/fifo_behav
+WARNING: [Vivado 12-4421] Failed to remove directory:G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.sim/sim_1/behav/xsim/xsim.dir
+INFO: [Vivado 12-2267] Reset complete
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/vivado/Vivado/2020.2/data/xsim/xsim.ini' copied to run dir:'G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_fifo' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_fifo_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.gen/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/FPGA/FIFO/rtl/fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo
+INFO: [VRFC 10-2458] undeclared symbol rst, assumed default net type wire [G:/FPGA/FIFO/rtl/fifo.v:16]
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/FPGA/FIFO/rtl/fifo_rd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_rd
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/FPGA/FIFO/rtl/fifo_wr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_wr
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/FPGA/FIFO/sim/tb_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+"xvhdl --incr --relax -prj tb_fifo_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.sim/sim_1/behav/xsim'
+"xelab -wto 4876a296d2a14433bf59298bf5563add --incr --debug typical --relax --mt 2 -L xil_defaultlib -L fifo_generator_v13_2_5 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_fifo_behav xil_defaultlib.tb_fifo xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 4876a296d2a14433bf59298bf5563add --incr --debug typical --relax --mt 2 -L xil_defaultlib -L fifo_generator_v13_2_5 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_fifo_behav xil_defaultlib.tb_fifo xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.0,...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module fifo_generator_v13_2_5.fifo_generator_v13_2_5_sync_stag...
+Compiling module fifo_generator_v13_2_5.fifo_generator_v13_2_5_bhv_ver_a...
+Compiling module fifo_generator_v13_2_5.fifo_generator_v13_2_5_CONV_VER(...
+Compiling module fifo_generator_v13_2_5.fifo_generator_vlog_beh(C_DATA_C...
+Compiling module xil_defaultlib.fifo_generator_0
+Compiling module xil_defaultlib.fifo_rd
+Compiling module xil_defaultlib.fifo_wr
+Compiling module xil_defaultlib.fifo
+Compiling module xil_defaultlib.tb_fifo
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_fifo_behav
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source G:/FPGA/FIFO/vivado_prj/FIFO/FIFO.sim/sim_1/behav/xsim/xsim.dir/tb_fifo_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Nov  5 01:34:04 2023...
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1462.520 ; gain = 0.000
+ERROR: [Simtcl 6-30] Unable to locate simulation image at 'xsim.dir/fifo_behav/xsimk.exe'
+ERROR: [Common 17-69] Command failed: ERROR: [Simtcl 6-30] Unable to locate simulation image at 'xsim.dir/fifo_behav/xsimk.exe'
+
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Nov  5 01:34:22 2023...
