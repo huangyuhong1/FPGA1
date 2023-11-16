@@ -1,0 +1,22 @@
+G:/FPGA/uart_chuangkou/rtl/uart_rd.v {1 {vlog -work work -vopt -stats=none G:/FPGA/uart_chuangkou/rtl/uart_rd.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module uart_rd
+
+Top level modules:
+	uart_rd
+
+} {} {}} G:/FPGA/uart_chuangkou/rtl/uart_loopback.v {1 {vlog -work work -vopt -stats=none G:/FPGA/uart_chuangkou/rtl/uart_loopback.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module uart_loopback
+
+Top level modules:
+	uart_loopback
+
+} {} {}} G:/FPGA/uart_chuangkou/sim/tb_uart_loopback.v {1 {vlog -work work -vopt -stats=none G:/FPGA/uart_chuangkou/sim/tb_uart_loopback.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module tb_uart_loopback
+
+Top level modules:
+	tb_uart_loopback
+
+} {} {}}

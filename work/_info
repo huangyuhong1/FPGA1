@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dG:/FPGA/uart_chuangkou/sim
+vled
+Z0 !s110 1700142794
+!i10b 1
+!s100 S1KW6?gWURPb=k1RiPfBZ0
+Iz5fJOn?;U<>NeAa:PjEC91
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dG:/FPGA
+w1700142594
+8G:/FPGA/FIFO/rtl/led.v
+FG:/FPGA/FIFO/rtl/led.v
+L0 1
+Z3 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1700142794.938000
+!s107 G:/FPGA/FIFO/rtl/led.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|G:/FPGA/FIFO/rtl/led.v|
+!i113 0
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vseg
+R0
+!i10b 1
+!s100 k0C^W3M62SKULDT@nNaF50
+I<<H26b1M@1]_1D2731gh43
+R1
+R2
+w1700142713
+8G:/FPGA/FIFO/rtl/seg.v
+FG:/FPGA/FIFO/rtl/seg.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1700142794.843000
+!s107 G:/FPGA/FIFO/rtl/seg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|G:/FPGA/FIFO/rtl/seg.v|
+!i113 0
+R4

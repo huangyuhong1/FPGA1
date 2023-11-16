@@ -1,0 +1,107 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/FPGA/ip_lport_ram/sim
+T_opt
+!s110 1700055858
+VR8K@z:P0j6hecQJM6z7Se3
+Z1 04 16 4 work tb_uart_loopback fast 0
+=1-f8893c26da57-6554cb32-1e6-f6c
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OL;O;10.4;61
+R0
+T_opt1
+!s110 1700055909
+Vmzf0zNJ<HholKD=:jGcWo0
+R1
+=1-f8893c26da57-6554cb65-361-37fc
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt1
+R2
+vtb_uart_loopback
+!s110 1700055848
+!i10b 1
+!s100 1JbYd]74[=;e3IdgZiH9S2
+IE[EX`jDGXf?9F:P2m1KIT1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 dG:/FPGA/uart_chuangkou/sim
+w1700055840
+8G:/FPGA/uart_chuangkou/sim/tb_uart_loopback.v
+FG:/FPGA/uart_chuangkou/sim/tb_uart_loopback.v
+L0 3
+Z5 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1700055848.004000
+!s107 G:/FPGA/uart_chuangkou/sim/tb_uart_loopback.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|G:/FPGA/uart_chuangkou/sim/tb_uart_loopback.v|
+!i113 0
+Z6 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vuart_loopback
+Z7 !s110 1700055847
+!i10b 1
+!s100 cin<S:]cmD:3aAo;_zQlo3
+I4N]39GBQC?^aXnQzlTG@?2
+R3
+R4
+w1700055662
+8G:/FPGA/uart_chuangkou/rtl/uart_loopback.v
+FG:/FPGA/uart_chuangkou/rtl/uart_loopback.v
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1700055847.843000
+!s107 G:/FPGA/uart_chuangkou/rtl/uart_loopback.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|G:/FPGA/uart_chuangkou/rtl/uart_loopback.v|
+!i113 0
+R6
+vuart_rd
+R7
+!i10b 1
+!s100 h`OWHQY1W<7zM0IQRKVDR1
+IRE:ERS7kc]MV4g7HG>ohk1
+R3
+R4
+w1700055676
+8G:/FPGA/uart_chuangkou/rtl/uart_rd.v
+FG:/FPGA/uart_chuangkou/rtl/uart_rd.v
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1700055847.924000
+!s107 G:/FPGA/uart_chuangkou/rtl/uart_rd.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|G:/FPGA/uart_chuangkou/rtl/uart_rd.v|
+!i113 0
+R6
+vuart_wr
+R7
+!i10b 1
+!s100 _Me;gODU2_1^Df[7C[;BD3
+IlR@6Y:X8U1OQG^lSH2i<40
+R3
+R4
+w1700018304
+8G:/FPGA/uart_chuangkou/rtl/uart_wr.v
+FG:/FPGA/uart_chuangkou/rtl/uart_wr.v
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1700055847.752000
+!s107 G:/FPGA/uart_chuangkou/rtl/uart_wr.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|G:/FPGA/uart_chuangkou/rtl/uart_wr.v|
+!i113 0
+R6
