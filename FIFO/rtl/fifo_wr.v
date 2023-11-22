@@ -18,6 +18,7 @@ always @(posedge clk or negedge rst_n) begin
     else begin
         empty_d0<=empty;
         empty_d1<=empty_d0;
+
     end
 end
  

@@ -1,0 +1,20 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/FPGA/HDMI/vivado_prj/HDMI/HDMI.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/FPGA/HDMI/vivado_prj/HDMI/HDMI.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/FPGA/HDMI/rtl/asyn_rst_syn.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module asyn_rst_syn
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/FPGA/HDMI/rtl/dvi_encoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dvi_encoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/FPGA/HDMI/rtl/dvi_transmitter_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dvi_transmitter_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/FPGA/HDMI/rtl/serializer_10_to_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module serializer_10_to_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/FPGA/HDMI/rtl/video_display.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module video_display
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/FPGA/HDMI/rtl/video_driver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module video_driver
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/FPGA/HDMI/rtl/hdmi_colorbar_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hdmi_colorbar_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/FPGA/HDMI/vivado_prj/HDMI/HDMI.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

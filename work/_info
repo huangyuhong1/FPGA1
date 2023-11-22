@@ -9,17 +9,17 @@ z2
 cModel Technology
 dG:/FPGA/uart_chuangkou/sim
 vled
-Z0 !s110 1700142794
+!s110 1700142794
 !i10b 1
 !s100 S1KW6?gWURPb=k1RiPfBZ0
 Iz5fJOn?;U<>NeAa:PjEC91
-Z1 VDg1SIo80bB@j0V0VzS_@n1
-Z2 dG:/FPGA
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dG:/FPGA
 w1700142594
 8G:/FPGA/FIFO/rtl/led.v
 FG:/FPGA/FIFO/rtl/led.v
 L0 1
-Z3 OL;L;10.4;61
+Z2 OL;L;10.4;61
 r1
 !s85 0
 31
@@ -27,24 +27,44 @@ r1
 !s107 G:/FPGA/FIFO/rtl/led.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|G:/FPGA/FIFO/rtl/led.v|
 !i113 0
-Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-vseg
-R0
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vps2_keyboard
+Z4 !s110 1700496992
 !i10b 1
-!s100 k0C^W3M62SKULDT@nNaF50
-I<<H26b1M@1]_1D2731gh43
+!s100 n45A;F3f7gVRPaN6NPNCh1
+IeCYWGa6:zBVH5knFk_mT>2
+R0
 R1
-R2
-w1700142713
-8G:/FPGA/FIFO/rtl/seg.v
-FG:/FPGA/FIFO/rtl/seg.v
+w1700496799
+8G:/arm_study/单个按键的ASCII码显示 ps2_keyboard.v
+FG:/arm_study/单个按键的ASCII码显示 ps2_keyboard.v
 L0 1
-R3
+R2
 r1
 !s85 0
 31
-!s108 1700142794.843000
-!s107 G:/FPGA/FIFO/rtl/seg.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|G:/FPGA/FIFO/rtl/seg.v|
+!s108 1700496992.499000
+!s107 G:/arm_study/单个按键的ASCII码显示 ps2_keyboard.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|G:/arm_study/单个按键的ASCII码显示 ps2_keyboard.v|
 !i113 0
+R3
+vseg
 R4
+!i10b 1
+!s100 U4TP^hemI86@XB=m`Z4zZ0
+ICl::O?[Q[RC>F_SHjGiIl1
+R0
+R1
+w1700496750
+8G:/arm_study/单个按键的ASCII码显示 seg.v
+FG:/arm_study/单个按键的ASCII码显示 seg.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1700496992.379000
+!s107 G:/arm_study/单个按键的ASCII码显示 seg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|G:/arm_study/单个按键的ASCII码显示 seg.v|
+!i113 0
+R3

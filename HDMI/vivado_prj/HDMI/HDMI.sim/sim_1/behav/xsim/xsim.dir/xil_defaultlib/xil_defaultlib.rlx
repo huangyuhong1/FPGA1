@@ -1,0 +1,14 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+G:/FPGA/HDMI/rtl/asyn_rst_syn.v,1700556841,verilog,,G:/FPGA/HDMI/rtl/dvi_encoder.v,,asyn_rst_syn,,,../../../../HDMI.gen/sources_1/ip/clk_wiz_0,,,,,
+G:/FPGA/HDMI/rtl/dvi_encoder.v,1700486773,verilog,,G:/FPGA/HDMI/rtl/dvi_transmitter_top.v,,dvi_encoder,,,../../../../HDMI.gen/sources_1/ip/clk_wiz_0,,,,,
+G:/FPGA/HDMI/rtl/dvi_transmitter_top.v,1700487971,verilog,,G:/FPGA/HDMI/rtl/serializer_10_to_1.v,,dvi_transmitter_top,,,../../../../HDMI.gen/sources_1/ip/clk_wiz_0,,,,,
+G:/FPGA/HDMI/rtl/hdmi_colorbar_top.v,1700557871,verilog,,,,hdmi_colorbar_top,,,../../../../HDMI.gen/sources_1/ip/clk_wiz_0,,,,,
+G:/FPGA/HDMI/rtl/serializer_10_to_1.v,1700487935,verilog,,G:/FPGA/HDMI/rtl/video_display.v,,serializer_10_to_1,,,../../../../HDMI.gen/sources_1/ip/clk_wiz_0,,,,,
+G:/FPGA/HDMI/rtl/video_display.v,1700490481,verilog,,G:/FPGA/HDMI/rtl/video_driver.v,,video_display,,,../../../../HDMI.gen/sources_1/ip/clk_wiz_0,,,,,
+G:/FPGA/HDMI/rtl/video_driver.v,1700490481,verilog,,G:/FPGA/HDMI/rtl/hdmi_colorbar_top.v,,video_driver,,,../../../../HDMI.gen/sources_1/ip/clk_wiz_0,,,,,
+G:/FPGA/HDMI/vivado_prj/HDMI/HDMI.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v,1700489678,verilog,,G:/FPGA/HDMI/rtl/asyn_rst_syn.v,,clk_wiz_0,,,../../../../HDMI.gen/sources_1/ip/clk_wiz_0,,,,,
+G:/FPGA/HDMI/vivado_prj/HDMI/HDMI.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,1700489678,verilog,,G:/FPGA/HDMI/vivado_prj/HDMI/HDMI.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v,,clk_wiz_0_clk_wiz,,,../../../../HDMI.gen/sources_1/ip/clk_wiz_0,,,,,
+G:/FPGA/HDMI/vivado_prj/HDMI/HDMI.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,

@@ -1,0 +1,342 @@
+
+*** Running vivado
+    with args -log hdmi_colorbar_top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source hdmi_colorbar_top.tcl
+
+
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source hdmi_colorbar_top.tcl -notrace
+Command: synth_design -top hdmi_colorbar_top -part xc7z020clg400-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-2
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 13112
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1161.238 ; gain = 21.641
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'hdmi_colorbar_top' [G:/FPGA/HDMI/rtl/hdmi_colorbar_top.v:1]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [G:/FPGA/HDMI/vivado_prj/HDMI/HDMI.runs/synth_1/.Xil/Vivado-8260-DESKTOP-S28V71U/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (1#1) [G:/FPGA/HDMI/vivado_prj/HDMI/HDMI.runs/synth_1/.Xil/Vivado-8260-DESKTOP-S28V71U/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'video_driver' [G:/FPGA/HDMI/rtl/video_driver.v:1]
+	Parameter H_SYNC bound to: 11'b00000101000 
+	Parameter H_BACK bound to: 11'b00011011100 
+	Parameter H_DISP bound to: 11'b10100000000 
+	Parameter H_FRONT bound to: 11'b00001101110 
+	Parameter H_TOTAL bound to: 11'b11001110010 
+	Parameter V_SYNC bound to: 11'b00000000101 
+	Parameter V_BACK bound to: 11'b00000010100 
+	Parameter V_DISP bound to: 11'b01011010000 
+	Parameter V_FRONT bound to: 11'b00000000101 
+	Parameter V_TOTAL bound to: 11'b01011101110 
+INFO: [Synth 8-6155] done synthesizing module 'video_driver' (2#1) [G:/FPGA/HDMI/rtl/video_driver.v:1]
+INFO: [Synth 8-6157] synthesizing module 'video_display' [G:/FPGA/HDMI/rtl/video_display.v:1]
+	Parameter H_DISP bound to: 11'b10100000000 
+	Parameter V_DISP bound to: 11'b01011010000 
+	Parameter WHITE bound to: 24'b111111111111111111111111 
+	Parameter BLACK bound to: 24'b000000000000000000000000 
+	Parameter RED bound to: 24'b111111110000110000000000 
+	Parameter GREEN bound to: 24'b000000001111111100000000 
+	Parameter BLUE bound to: 24'b000000000000000011111111 
+INFO: [Synth 8-6155] done synthesizing module 'video_display' (3#1) [G:/FPGA/HDMI/rtl/video_display.v:1]
+INFO: [Synth 8-6157] synthesizing module 'dvi_transmitter_top' [G:/FPGA/HDMI/rtl/dvi_transmitter_top.v:1]
+INFO: [Synth 8-6157] synthesizing module 'asyn_rst_syn' [G:/FPGA/HDMI/rtl/asyn_rst_syn.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'asyn_rst_syn' (4#1) [G:/FPGA/HDMI/rtl/asyn_rst_syn.v:4]
+INFO: [Synth 8-6157] synthesizing module 'dvi_encoder' [G:/FPGA/HDMI/rtl/dvi_encoder.v:4]
+	Parameter CTRLTOKEN0 bound to: 10'b1101010100 
+	Parameter CTRLTOKEN1 bound to: 10'b0010101011 
+	Parameter CTRLTOKEN2 bound to: 10'b0101010100 
+	Parameter CTRLTOKEN3 bound to: 10'b1010101011 
+INFO: [Synth 8-6155] done synthesizing module 'dvi_encoder' (5#1) [G:/FPGA/HDMI/rtl/dvi_encoder.v:4]
+INFO: [Synth 8-6157] synthesizing module 'serializer_10_to_1' [G:/FPGA/HDMI/rtl/serializer_10_to_1.v:4]
+INFO: [Synth 8-6157] synthesizing module 'OSERDESE2' [D:/vivado/Vivado/2020.2/scripts/rt/data/unisim_comp.v:50398]
+	Parameter DATA_RATE_OQ bound to: DDR - type: string 
+	Parameter DATA_RATE_TQ bound to: SDR - type: string 
+	Parameter DATA_WIDTH bound to: 10 - type: integer 
+	Parameter INIT_OQ bound to: 1'b0 
+	Parameter INIT_TQ bound to: 1'b0 
+	Parameter IS_CLKDIV_INVERTED bound to: 1'b0 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+	Parameter IS_D1_INVERTED bound to: 1'b0 
+	Parameter IS_D2_INVERTED bound to: 1'b0 
+	Parameter IS_D3_INVERTED bound to: 1'b0 
+	Parameter IS_D4_INVERTED bound to: 1'b0 
+	Parameter IS_D5_INVERTED bound to: 1'b0 
+	Parameter IS_D6_INVERTED bound to: 1'b0 
+	Parameter IS_D7_INVERTED bound to: 1'b0 
+	Parameter IS_D8_INVERTED bound to: 1'b0 
+	Parameter IS_T1_INVERTED bound to: 1'b0 
+	Parameter IS_T2_INVERTED bound to: 1'b0 
+	Parameter IS_T3_INVERTED bound to: 1'b0 
+	Parameter IS_T4_INVERTED bound to: 1'b0 
+	Parameter SERDES_MODE bound to: MASTER - type: string 
+	Parameter SRVAL_OQ bound to: 1'b0 
+	Parameter SRVAL_TQ bound to: 1'b0 
+	Parameter TBYTE_CTL bound to: FALSE - type: string 
+	Parameter TBYTE_SRC bound to: FALSE - type: string 
+	Parameter TRISTATE_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'OSERDESE2' (6#1) [D:/vivado/Vivado/2020.2/scripts/rt/data/unisim_comp.v:50398]
+INFO: [Synth 8-6157] synthesizing module 'OSERDESE2__parameterized0' [D:/vivado/Vivado/2020.2/scripts/rt/data/unisim_comp.v:50398]
+	Parameter DATA_RATE_OQ bound to: DDR - type: string 
+	Parameter DATA_RATE_TQ bound to: SDR - type: string 
+	Parameter DATA_WIDTH bound to: 10 - type: integer 
+	Parameter INIT_OQ bound to: 1'b0 
+	Parameter INIT_TQ bound to: 1'b0 
+	Parameter IS_CLKDIV_INVERTED bound to: 1'b0 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+	Parameter IS_D1_INVERTED bound to: 1'b0 
+	Parameter IS_D2_INVERTED bound to: 1'b0 
+	Parameter IS_D3_INVERTED bound to: 1'b0 
+	Parameter IS_D4_INVERTED bound to: 1'b0 
+	Parameter IS_D5_INVERTED bound to: 1'b0 
+	Parameter IS_D6_INVERTED bound to: 1'b0 
+	Parameter IS_D7_INVERTED bound to: 1'b0 
+	Parameter IS_D8_INVERTED bound to: 1'b0 
+	Parameter IS_T1_INVERTED bound to: 1'b0 
+	Parameter IS_T2_INVERTED bound to: 1'b0 
+	Parameter IS_T3_INVERTED bound to: 1'b0 
+	Parameter IS_T4_INVERTED bound to: 1'b0 
+	Parameter SERDES_MODE bound to: SLAVE - type: string 
+	Parameter SRVAL_OQ bound to: 1'b0 
+	Parameter SRVAL_TQ bound to: 1'b0 
+	Parameter TBYTE_CTL bound to: FALSE - type: string 
+	Parameter TBYTE_SRC bound to: FALSE - type: string 
+	Parameter TRISTATE_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'OSERDESE2__parameterized0' (6#1) [D:/vivado/Vivado/2020.2/scripts/rt/data/unisim_comp.v:50398]
+INFO: [Synth 8-6155] done synthesizing module 'serializer_10_to_1' (7#1) [G:/FPGA/HDMI/rtl/serializer_10_to_1.v:4]
+INFO: [Synth 8-6157] synthesizing module 'OBUFDS' [D:/vivado/Vivado/2020.2/scripts/rt/data/unisim_comp.v:46332]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IOSTANDARD bound to: TMDS_33 - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'OBUFDS' (8#1) [D:/vivado/Vivado/2020.2/scripts/rt/data/unisim_comp.v:46332]
+INFO: [Synth 8-6155] done synthesizing module 'dvi_transmitter_top' (9#1) [G:/FPGA/HDMI/rtl/dvi_transmitter_top.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'hdmi_colorbar_top' (10#1) [G:/FPGA/HDMI/rtl/hdmi_colorbar_top.v:1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1216.082 ; gain = 76.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1216.082 ; gain = 76.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1216.082 ; gain = 76.484
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1216.082 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [g:/FPGA/HDMI/vivado_prj/HDMI/HDMI.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clk_wiz_0'
+Finished Parsing XDC File [g:/FPGA/HDMI/vivado_prj/HDMI/HDMI.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clk_wiz_0'
+Parsing XDC File [G:/FPGA/HDMI/vivado_prj/HDMI/HDMI.srcs/constrs_1/new/hdmi.xdc]
+Finished Parsing XDC File [G:/FPGA/HDMI/vivado_prj/HDMI/HDMI.srcs/constrs_1/new/hdmi.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [G:/FPGA/HDMI/vivado_prj/HDMI/HDMI.srcs/constrs_1/new/hdmi.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/hdmi_colorbar_top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/hdmi_colorbar_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1334.562 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1334.562 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1334.562 ; gain = 194.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1334.562 ; gain = 194.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk. (constraint file  g:/FPGA/HDMI/vivado_prj/HDMI/HDMI.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 4).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk. (constraint file  g:/FPGA/HDMI/vivado_prj/HDMI/HDMI.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 5).
+Applied set_property KEEP_HIERARCHY = SOFT for clk_wiz_0. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1334.562 ; gain = 194.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1334.562 ; gain = 194.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   11 Bit       Adders := 3     
+	   2 Input   10 Bit       Adders := 1     
+	   5 Input    5 Bit       Adders := 6     
+	   4 Input    5 Bit       Adders := 3     
+	   8 Input    4 Bit       Adders := 6     
+	   2 Input    4 Bit       Adders := 3     
++---XORs : 
+	   2 Input      1 Bit         XORs := 42    
++---Registers : 
+	               24 Bit    Registers := 1     
+	               12 Bit    Registers := 2     
+	               11 Bit    Registers := 2     
+	               10 Bit    Registers := 3     
+	                9 Bit    Registers := 3     
+	                8 Bit    Registers := 3     
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 9     
+	                1 Bit    Registers := 22    
++---Muxes : 
+	   2 Input   24 Bit        Muxes := 1     
+	   5 Input   24 Bit        Muxes := 1     
+	   2 Input   11 Bit        Muxes := 3     
+	   2 Input   10 Bit        Muxes := 7     
+	   5 Input   10 Bit        Muxes := 3     
+	   2 Input    8 Bit        Muxes := 3     
+	   2 Input    5 Bit        Muxes := 12    
+	   2 Input    4 Bit        Muxes := 3     
+	   2 Input    1 Bit        Muxes := 21    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1334.562 ; gain = 194.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1334.562 ; gain = 194.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1334.562 ; gain = 194.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1336.789 ; gain = 197.191
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1336.789 ; gain = 197.191
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1336.789 ; gain = 197.191
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1336.789 ; gain = 197.191
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1336.789 ; gain = 197.191
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1336.789 ; gain = 197.191
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1336.789 ; gain = 197.191
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |clk_wiz_0     |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |clk_wiz   |     1|
+|2     |LUT1      |     4|
+|3     |LUT2      |    18|
+|4     |LUT3      |    31|
+|5     |LUT4      |    25|
+|6     |LUT5      |    25|
+|7     |LUT6      |    46|
+|8     |OSERDESE2 |     8|
+|10    |FDCE      |    52|
+|11    |FDPE      |     2|
+|12    |FDRE      |    33|
+|13    |IBUF      |     1|
+|14    |OBUFDS    |     4|
++------+----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1336.789 ; gain = 197.191
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 1336.789 ; gain = 78.711
+Synthesis Optimization Complete : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1336.789 ; gain = 197.191
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1336.789 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1355.465 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+39 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1355.465 ; gain = 215.867
+INFO: [Common 17-1381] The checkpoint 'G:/FPGA/HDMI/vivado_prj/HDMI/HDMI.runs/synth_1/hdmi_colorbar_top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file hdmi_colorbar_top_utilization_synth.rpt -pb hdmi_colorbar_top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 21 18:34:34 2023...
